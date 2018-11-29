@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  cassandra:
+    image: datastax/dse-server:latest
+    ports:
+      - "7000:7000"
+      - "7001:7001"
+      - "9160:9160"
+      - "9042:9042"
+      - "7199:7199"
+      - "8983:8983"
+    command: -s
+    volumes:
+      - /Users/sprasad9/jcp/dse/data:/var/lib/cassandra/data
+      - /Users/sprasad9/jcp/dse/solr:/opt/dse/resources/solr/lib/
+    container_name : dcp-dse
+    environment:
+     - DS_LICENSE=accept
