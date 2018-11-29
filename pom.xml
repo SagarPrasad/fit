@@ -23,22 +23,22 @@
     <dependency>
         <groupId>com.datastax</groupId>
         <artifactId>dse-search</artifactId>
-        <version>5.1.6</version>
-        <systemPath>/home/florent/soft/dse-5.1.6/lib/dse-search-5.1.6.jar</systemPath>
+        <version>6.0.2</version>
+        <systemPath>/Users/sprasad9/jcp/dse/dse-lib/dse-search-6.0.2.jar</systemPath>
         <scope>system</scope>
     </dependency>
     <dependency>
         <groupId>com.datastax</groupId>
         <artifactId>dse-core</artifactId>
-        <version>5.1.6</version>
-        <systemPath>/home/florent/soft/dse-5.1.6/lib/dse-core-5.1.6.jar</systemPath>
+        <version>6.0.2</version>
+        <systemPath>/Users/sprasad9/jcp/dse/dse-lib/dse-search-6.0.2.jar</systemPath>
         <scope>system</scope>
     </dependency>
     <dependency>
         <groupId>org.apache.solr</groupId>
         <artifactId>solr-core</artifactId>
-        <version>5.1.6</version>
-        <systemPath>/home/florent/soft/dse-5.1.6/resources/solr/lib/solr-uber-with-auth_2.1-6.0.1.0.2123.jar</systemPath>
+        <version>6.0.2</version>
+        <systemPath>/Users/sprasad9/jcp/dse/dse-lib/solr-uber-with-auth_2.1-6.0.1.1.2321.jar</systemPath>
         <scope>system</scope>
     </dependency>
     <dependency>

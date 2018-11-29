@@ -10,9 +10,10 @@
         </fieldType>
     </types>
     <fields>
-        <field indexed="true" multiValued="false" name="id" stored="true" type="StrField"/>
-        <field indexed="true" multiValued="false" name="complexvalue" stored="true" type="StrField"/>
-        <dynamicField name="map_*"  type="TextField"  indexed="true"  stored="true" multiValued="true" />
+        <field indexed="true" multiValued="false" name="name" stored="true" type="StrField"/>
+        <field indexed="true" multiValued="false" name="color" stored="true" type="StrField"/>
+        <field indexed="true" multiValued="false" name="jsonfield" stored="true" type="StrField"/>
+        <dynamicField name="order_*"  type="TextField"  indexed="true"  stored="true" multiValued="true" />
     </fields>
-    <uniqueKey>id</uniqueKey>
+    <uniqueKey>name</uniqueKey>
 </schema>
